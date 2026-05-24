@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 150%;
+}
+header {
+    background-color: #a5ff9d;
+}
+
+nav {
+    background-color: #edeb82;
+    border-radius: 25px;
+}
+
+main {
+    background-color: #ffffff;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #f0abab;
+}
+
+li {
+    display: inline-block;
+    width: 150px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+}
+
+p {
+    line-height: 1.6;
+}
+
+nav ul li a {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 20px;
+    font-weight: 500;
+    width: 300px;
+}
+nav ul li a:hover {
+    background-color: #000000;
+    color:  #61c761;
+    border-radius: 5px;
+    transform: scale(1.1) translateY(-2px) rotate(5deg);
+    transition: all 0.5s ease;
+}
+
+nav {
+    text-align: center;
+}
+nav ul {
+    display: inline-block;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 50px;
+    padding: 10px 20px 10px 20px;
+    width: 300px;
+}
+
+header {
+    background-color: #a5ff9d;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    display: inline-block; 
+    vertical-align: middle;
+    font-size: 36px;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0 20px 0 0; 
+}
+
+header img {
+    display: inline-block; 
+    vertical-align: middle; 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+}
+
+main {
+    text-align: center;
+}
+
+main a {
+    color: #2a7a2a;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+main a:hover {
+    border-color: #2a7a2a;
+}
+
+footer {
+    background-color: #222222;
+    color: #cccccc;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #a5ff9d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+main div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+main img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+main img:hover {
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
